@@ -19,7 +19,7 @@ public class Car {
 
         Builder(String mark, String model) { //обязательные параметры
             this.mark = mark;
-            this.model=model;
+            this.model = model;
         }
 
         public Builder setPrice(int price) {
